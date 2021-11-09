@@ -1,18 +1,18 @@
-.App {
+.app {
   display: flex;
   flex-direction: column;
 }
 
 .header {
   padding: 1rem 2rem;
-  background-color: #3b5998;
+  background: #3b5998;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .header h1 {
-  color: white;;
+  color: #fff;
 }
 
 .header select {
@@ -24,11 +24,4 @@
 
 section {
   padding: 1rem;
-
-}
-
-.contenst { 
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 2rem;
 }
